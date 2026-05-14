@@ -1,0 +1,7 @@
+print("NOR Gate\n")
+a = int(input("Enter value of A (0 or 1): "))
+b = int(input("Enter value of B (0 or 1): "))
+output = int(not(a | b))
+print("\nUser Input Result")
+print("A\tB\tNOR")
+print(a, "\t", b, "\t", output)
